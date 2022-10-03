@@ -7,6 +7,12 @@
       },
       "resourceGroupName":{
         "value": "singleVM-rg"
+      },
+      "tags":{
+        "value": {
+            "Envrionment": "Sandbox",
+            "Deployd by": "Bicep"
+        }
       }
     }
 }
