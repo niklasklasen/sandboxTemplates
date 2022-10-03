@@ -4,6 +4,9 @@
     "parameters": {
       "location": {
         "value": "swedencentral"
+      },
+      "resourceGroupName":{
+        "value": "singleVM-rg"
       }
     }
 }
