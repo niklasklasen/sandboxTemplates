@@ -24,6 +24,7 @@ jobs:
       - uses: azure/arm-deploy@v1
         with:
           scope: subscription
+          region: swedencentral
           deploymentName: ${{ github.run_number }}
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           template: ./IaC/bicep/orchestration/singleVM/singleVM.bicep
